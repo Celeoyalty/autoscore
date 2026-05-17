@@ -45,7 +45,7 @@ jobs:
         Email_mail_license: ${{ secrets.Email_mail_license }}
         Email_send_logs: ${{ secrets.Email_send_logs }}
 
-        enable_od_upload:  ${{ secrets.enable_od_upload }}
+        enable_od_upload:  0
         od_client_id:  ${{ secrets.od_client_id }}
         od_client_secret:  ${{ secrets.od_client_secret }}
         od_redirect_uri:  ${{ secrets.od_redirect_uri }}
