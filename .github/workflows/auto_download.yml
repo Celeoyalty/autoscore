@@ -30,7 +30,7 @@ jobs:
 
         MMS_email: ${{ secrets.MMS_email }}
         MMS_password: ${{ secrets.MMS_password }}
-        MMS_savefolder_path: ${{ secrets.MMS_savefolder_path }}
+        MMS_savefolder_path: files
 
         RSS_url: ${{ secrets.RSS_url }}
         RSS_url_key: ${{ secrets.RSS_url_key }}
