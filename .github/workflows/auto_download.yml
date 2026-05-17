@@ -37,7 +37,7 @@ jobs:
         RSS_max_days_difference: ${{ secrets.RSS_max_days_difference }}
         RSS_max_trial_num: ${{ secrets.RSS_max_trial_num }}
         
-        enable_email_notify: ${{ secrets.enable_email_notify }}
+        enable_email_notify: 1
         Email_sender: ${{ secrets.Email_sender }}
         Email_receivers: ${{ secrets.Email_receivers }}
         Email_smtp_host: ${{ secrets.Email_smtp_host }}
