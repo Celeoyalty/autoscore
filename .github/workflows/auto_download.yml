@@ -51,7 +51,7 @@ jobs:
         od_redirect_uri:  ${{ secrets.od_redirect_uri }}
         od_upload_dir:  ${{ secrets.od_upload_dir }}
 
-        use_oauth2_outlook:  ${{ secrets.use_oauth2_outlook }}
+        use_oauth2_outlook:  0
         outlook_client_id:  ${{ secrets.outlook_client_id }}
         outlook_client_secret:  ${{ secrets.outlook_client_secret }}
         outlook_redirect_uri:  ${{ secrets.outlook_redirect_uri }}      
